@@ -1,0 +1,42 @@
+name: fyp_2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  animate_do: ^3.3.4
+  firebase_auth: ^4.19.1
+  firebase_core: ^2.29.0
+  firebase_ui_auth: ^1.13.1
+  flutter:
+    sdk: flutter
+  introduction_slider: ^2.0.1
+  card_slider: ^1.0.5
+  notifications: ^3.0.0
+  booking_calendar: ^1.1.10
+  table_calendar: ^3.0.9
+  flutter_local_notifications: ^17.1.2
+  cloud_firestore: ^4.17.3
+  firebase_messaging: ^14.9.2
+  firebase_storage: ^11.7.7
+  image_picker: ^1.1.2
+  shared_preferences: ^2.2.3
+  file_picker: ^8.0.5
+ 
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/
+    
+dependency_overrides:
+  intl: ^0.18.0
